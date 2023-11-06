@@ -2,6 +2,10 @@
 
 ## 20231106 ~             Pure Redux 이후 React Hooks를 듣고 React Redux 이어서 듣기.
 
+Learning Vanilla-Redux and React-Redux
+
+#
+
 https://redux.js.org/
 
 Redux : 기본적으로 Javascript application들의 state(상태)를 관리하는 방법
@@ -12,4 +16,5 @@ Redux : 기본적으로 Javascript application들의 state(상태)를 관리하�
 
 npx create-react-app vanilla-redux
 
+#
 
