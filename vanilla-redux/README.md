@@ -2,3 +2,5 @@
 
 ## 20231106 ~ 
 Learning Vanilla-Redux
+
+
