@@ -7,12 +7,25 @@ number.innerText = 0;
 
 // DATA를 수정하는 유일한 함수.
 const countModifier = (count = 0, action) => {
-  if (action.type === "ADD"){ 
+  /*if (action.type === "ADD"){ 
     count += 1; 
   }
   else if(action.type === "MINUS"){ 
     count -= 1; 
+  }*/
+
+  switch(action.type)
+  {
+    case "ADD":
+      count += 1;
+      break;
+    case "MINUS":
+      count -= 1;
+      break;
+    default:
+      break; 
   }
+
   return count;
 }
 
